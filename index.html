@@ -17,7 +17,7 @@
       cvs.width=window.innerWidth;
       cvs.height=window.innerHeight;
       var c=[0,0,0,1,2,3,4,4,3,2,1];
-      t=~~((+new Date()%10000)*0.025)%11;
+      t=~~((+new Date()%1000000)*0.0245)%11;
       if(curt!=c[t])
         curt=c[t];
       ctx.drawImage(img,0,352*c[t],626,342,0,0,cvs.width,cvs.height);
